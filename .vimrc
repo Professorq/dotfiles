@@ -11,18 +11,6 @@ set number
 ""  Fast escape
 inoremap jk <esc>
 
-filetype off
-filetype plugin indent off
-set runtimepath+=$GOROOT/misc/vim
-filetype plugin indent on
-syntax on
-
-""inoremap ( ()<ESC>i
-""inoremap { {}<ESC>i
-""inoremap [ []<ESC>i
-""inoremap " ""<ESC>i
-""source ~/.vim/matchit.vim
-
 if has("gui_running")
 	colors darkblue
 endif
